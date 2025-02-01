@@ -39,50 +39,51 @@
         <!-- logo div -->
         <div class="pl-32 flex items-center">
             <img src="logo-header.png">
-            <h3 class="pl-3 font-medium">Browse<span class="text-orange-300">4</span>Pets</h3>
+
+            <h3 class="sora-font hidden sm:block pl-3 font-medium">Browse<span class="text-orange-300">4</span>Pets</h3>
         </div>
 
         <!-- list div -->
         <div>
             <ul class="flex">
                 <li>
-                    <a href>Find a pet</a>
+                    <a class="sora-font hidden sm:block" href="">Find a pet</a>
                 </li>
 
                 <li>
-                    <a class="px-10" href="">Breeds</a>
+                    <a class="sora-font px-10 hidden sm:block" href="">Breeds</a>
                 </li>
 
                 <li>
-                    <a href="">Contact us</a>
+                    <a class="sora-font hidden sm:block" href="">Contact us</a>
                 </li>
             </ul>
         </div>
 
 
             <!-- button div -->
-        <div class="flex gap-3 pr-32 items-center">
-            <svg class="w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+        <div class="flex gap-3 pr-32 items-center ">
+            <svg class="hidden sm:block w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M17.133 12.632v-1.8a5.407 5.407 0 0 0-4.154-5.262.955.955 0 0 0 .021-.106V3.1a1 1 0 0 0-2 0v2.364a.933.933 0 0 0 .021.106 5.406 5.406 0 0 0-4.154 5.262v1.8C6.867 15.018 5 15.614 5 16.807 5 17.4 5 18 5.538 18h12.924C19 18 19 17.4 19 16.807c0-1.193-1.867-1.789-1.867-4.175Zm-13.267-.8a1 1 0 0 1-1-1 9.424 9.424 0 0 1 2.517-6.391A1.001 1.001 0 1 1 6.854 5.8a7.43 7.43 0 0 0-1.988 5.037 1 1 0 0 1-1 .995Zm16.268 0a1 1 0 0 1-1-1A7.431 7.431 0 0 0 17.146 5.8a1 1 0 0 1 1.471-1.354 9.424 9.424 0 0 1 2.517 6.391 1 1 0 0 1-1 .995ZM8.823 19a3.453 3.453 0 0 0 6.354 0H8.823Z"/>
               </svg>
 
-              <svg class="w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <svg class="hidden sm:block w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M6.94318 11h-.85227l.96023-2.90909h1.07954L9.09091 11h-.85227l-.63637-2.10795h-.02272L6.94318 11Zm-.15909-1.14773h1.60227v.59093H6.78409v-.59093ZM9.37109 11V8.09091h1.25571c.2159 0 .4048.04261.5667.12784.162.08523.2879.20502.3779.35937.0899.15436.1349.33476.1349.5412 0 .20833-.0464.38873-.1392.54119-.0918.15246-.2211.26989-.3878.35229-.1657.0824-.3593.1236-.5809.1236h-.75003v-.61367h.59093c.0928 0 .1719-.0161.2372-.0483.0663-.03314.1169-.08002.152-.14062.036-.06061.054-.13211.054-.21449 0-.08334-.018-.15436-.054-.21307-.0351-.05966-.0857-.10511-.152-.13636-.0653-.0322-.1444-.0483-.2372-.0483h-.2784V11h-.78981Zm3.41481-2.90909V11h-.7898V8.09091h.7898Z"/>
                 <path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M8.31818 2c-.55228 0-1 .44772-1 1v.72878c-.06079.0236-.12113.04809-.18098.07346l-.55228-.53789c-.38828-.37817-1.00715-.37817-1.39543 0L3.30923 5.09564c-.19327.18824-.30229.44659-.30229.71638 0 .26979.10902.52813.30229.71637l.52844.51468c-.01982.04526-.03911.0908-.05785.13662H3c-.55228 0-1 .44771-1 1v2.58981c0 .5523.44772 1 1 1h.77982c.01873.0458.03802.0914.05783.1366l-.52847.5147c-.19327.1883-.30228.4466-.30228.7164 0 .2698.10901.5281.30228.7164l1.88026 1.8313c.38828.3781 1.00715.3781 1.39544 0l.55228-.5379c.05987.0253.12021.0498.18102.0734v.7288c0 .5523.44772 1 1 1h2.65912c.5523 0 1-.4477 1-1v-.7288c.1316-.0511.2612-.1064.3883-.1657l.5435.2614v.4339c0 .5523.4477 1 1 1H14v.0625c0 .5523.4477 1 1 1h.0909v.0625c0 .5523.4477 1 1 1h.6844l.4952.4823c1.1648 1.1345 3.0214 1.1345 4.1863 0l.2409-.2347c.1961-.191.3053-.454.3022-.7277-.0031-.2737-.1183-.5342-.3187-.7207l-6.2162-5.7847c.0173-.0398.0342-.0798.0506-.12h.7799c.5522 0 1-.4477 1-1V8.17969c0-.55229-.4478-1-1-1h-.7799c-.0187-.04583-.038-.09139-.0578-.13666l.5284-.51464c.1933-.18824.3023-.44659.3023-.71638 0-.26979-.109-.52813-.3023-.71637l-1.8803-1.8313c-.3883-.37816-1.0071-.37816-1.3954 0l-.5523.53788c-.0598-.02536-.1201-.04985-.1809-.07344V3c0-.55228-.4477-1-1-1H8.31818Z"/>
               </svg>
-                <button class=" border  px-4 py-2 rounded-lg">Login</button>
-                <button class="bg bg-yellow-400 px-4 py-2 rounded-lg">Register</button>
+                <button class="sora-font hidden sm:block border  px-4 py-2 rounded-lg">Login</button>
+                <button class="sora-font hidden sm:block bg bg-yellow-400 px-4 py-2 rounded-lg">Register</button>
         </div>
     </section> <br>
 
 
     <!-- banner section start -->
-    <section class=" px-32 relative">
+    <section class="px-32 lg:relative sm:flex flex-col">
      <!-- font div -->
-        <div class="absolute pt-5">
+        <div class="lg:absolute pt-5 sm:2">
             <h1 class="adlam-font font-extrabold text-4xl">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1> <br>
             <p class="sora-font font-medium text-sm">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p> <br>
-            <button class="bg bg-yellow-400 px-4 py-2 rounded-lg">Find a pet</button>
+            <button class="sora-font bg bg-yellow-400 px-4 py-2 rounded-lg">Find a pet</button>
         </div>
         <div class="flex justify-center">
             <h1 class="text-green-500 font-bold animate-ping">This is My Animation</h1>
@@ -93,58 +94,58 @@
         </div>
     </section> <br>
 
-    <!-- card section -->
+    <!--first card section -->
      <section class="mx-32 my-10 ">
-        <h2 class="font-bold text-3xl">Browse By Categories</h2>
-        <div class="my-10 grid grid-cols-6">
+        <h2 class="adlam-font font-bold text-3xl">Browse By Categories</h2>
+        <div class="my-10 grid lg:grid-cols-6 sm:grid-cols-2">
             <div class="bg-amber-200 w-40 h-56 flex flex-col justify-center items-center rounded-lg">
                 <div class="bg-slate-50 rounded-full"><img class="p-5" src="dog-cartoon.png"></div> <br> 
-                <h5>Dog</h5>
-                <h6>3 items</h6>
+                <h5 class="adlam-font">Dog</h5>
+                <h6 class="sora-font">3 items</h6>
             </div> 
 
             <div class="bg-amber-200 w-40 h-56 flex flex-col justify-center items-center rounded-lg">
                 <div class="bg-slate-50 rounded-full"><img class="p-5" src="fish-cartoon.png"></div> <br>
-                <h5>Fish</h5>
-                <h6>3 items</h6>
+                <h5 class="adlam-font">Fish</h5>
+                <h6 class="sora-font">3 items</h6>
             </div>
 
             <div class="bg-amber-200 w-40 h-56 flex flex-col justify-center items-center rounded-lg">
                 <div class="bg-slate-50 rounded-full"><img class="p-5" src="cat-cartoon.png"></div> <br>  
-                <h5>Cat</h5>
-                <h6>3 items</h6>
+                <h5 class="adlam-font">Cat</h5>
+                <h6 class="sora-font">3 items</h6>
             </div>
 
             <div class="bg-amber-200 w-40 h-56 flex flex-col justify-center items-center rounded-lg">
                 <div class="bg-slate-50 rounded-full"><img class="p-5" src="bird-cartoon.png"></div> <br>
-                <h5>Bird</h5>
-                <h6>3 items</h6>
+                <h5 class="adlam-font">Bird</h5>
+                <h6 class="sora-font">3 items</h6>
             </div>
 
             <div class="bg-amber-200 w-40 h-56 flex flex-col justify-center items-center rounded-lg">
                 <div class="bg-slate-50 rounded-full"><img class="p-5" src="mouse-cartoon.png"></div> <br>
-                <h5>Small pet</h5>
-                <h6>3 items</h6>
+                <h5 class="adlam-font">Small pet</h5>
+                <h6 class="sora-font">3 items</h6>
             </div>
 
             <div class="bg-amber-200 w-40 h-56 flex flex-col justify-center items-center rounded-lg">
                 <div class="bg-slate-50 rounded-full"><img class="p-5" src="rabbit-cartoon.png"></div> <br>
-                <h5>Rabit</h5>
-                <h6>3 items</h6>
+                <h5 class="adlam-font">Rabit</h5>
+                <h6 class="sora-font">3 items</h6>
             </div>
         </div>
      </section> <br>
 
 
     <!-- secound card start -->
-      <section class="bg-slate-50">
+    <section class="bg-slate-50">
         <h2 class="adlam-font font-bold text-3xl pl-32 pt-20">Trending Pet Products</h2>
-        <div class="px-32 flex items-center">
+            <div class="px-32 flex flex-col sm:flex-row items-center">
 
             <div class="bg-amber-200 w-96 h-80 p-10 relative  rounded-lg my-10">
                 <h3 class="adlam-font font-bold text-xl">T- Shirt For Dogs</h3> <br>
                 <p class="sora-font">Discover a world of treats, toys, and<br> essentials handpicked for </p> <br>
-                <button class="bg-white px-3 py-2 rounded-lg">Shop Now</button>
+                <button class="sora-font bg-white px-3 py-2 rounded-lg" > Shop Now </button>
                 <img class="w-52 absolute top-16 ml-38 p-5" src="cute-pet-small.png"> <br>
             </div>
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
@@ -152,74 +153,74 @@
             <div>
                 <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                     <div class="bg-slate-50 m-2"><img class="p-2" src="dog-cartoon.png"></div>
-                    <div class="ml-5"><p>4.5</p>
-                        <p>Pet Bed</p>
-                        <p>$39.99</p> 
+                    <div class="ml-5"><p class="sora-font">4.5</p>
+                        <p class="sora-font">Pet Bed</p>
+                        <p class="sora-font">$39.99</p> 
                     </div>
                 </div>
             </div>
             
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="fish-cartoon.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
 
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="bird-cartoon.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
 
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="rabbit-cartoon.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
 
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="bird-cartoon.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
 
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="pet-couch.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
 
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="fish-cartoon.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
 
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="rabbit-cartoon.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
 
             <div class="flex items-center bg-white h-20 w-52 rounded-lg ">
                 <div class="bg-slate-50 m-2"><img class="p-2" src="pet-couch.png"></div>
-                <div class="ml-5"><p>4.5</p>
-                    <p>Pet Bed</p>
-                    <p>$39.99</p> 
+                <div class="ml-5"><p class="sora-font">4.5</p>
+                    <p class="sora-font">Pet Bed</p>
+                    <p class="sora-font">$39.99</p> 
                 </div>
             </div>
            </section>
@@ -231,7 +232,7 @@
         <h1 class="text-green-500 font-bold animate-ping">This is My Optional Section</h1>
     </div>
     <section class="flex justify-between items-center">
-        <div class="">
+        <div>
             <img class="w-64 h-64 p-2 rounded-full" src="white-cat-pink-sofa-generate-ai-photo.jpg">
         </div>
         <p class="w-3/5  px-20 font-semibold text-green-500">Pets are more than just animals; they are our loyal companions, bringing joy and comfort into our lives. Whether it's a playful dog, a curious cat, or a chirping bird, pets form deep bonds with their owners. They offer unconditional love, reduce stress, and even improve mental health. Caring for them teaches responsibility and compassion, making them an essential part of many families. Each pet has its own personality, quirks, and ways of expressing affection. Their presence fills our homes with warmth and happiness, making life more meaningful. Truly, pets are not just pets—they are family.</p>
@@ -244,12 +245,12 @@
         <!-- third card section -->
         <h2 class="adlam-font font-bold text-3xl pt-20 ml-32">Everyday low Price</h2> <br>
 <div class="relative">
-    <section class="mx-32 flex gap-5 relative mb-56">
+        <section class="mx-32 flex flex-col sm:flex-row gap-5 relative mb-56">
         <div class="flex items-center justify-between bg-linear-to-r from-slate-200 to-slate-300 h-80 w-2/3 rounded-lg">
             <div class="py-10 px-20">
-                <p class="adlam-font font-bold text-3xl">Under Price</p>
-                <h2>Pet Grooming Mitt</h2>
-                <p class="text-white">(Easy Hair Removal)</p>
+                <p class="sora-font font-normal text-sm">Under Price</p>
+                <h2 class="adlam-font font-bold text-xl">Pet Grooming Mitt</h2>
+                <p class="text-white adlam-font">(Easy Hair Removal)</p>
                 <h2 class="adlam-font font-bold text-3xl">$7.99</h2>
             </div>
             <div>
@@ -259,8 +260,8 @@
 
         <div class="flex bg-linear-to-r from-red-100 to-red-300 h-80 w-1/3 rounded-lg">
             <div class="p-10">
-                <h2 class="font-bold text-lg">T-Shirt for Dogs</h2>
-                <h2 class="adlam-font font-bold text-3xl">$7.99</h2>
+                <h2 class="adlam-font font-bold text-lg">T-Shirt for Dogs</h2>
+                <h2 class="adlam-font font-bold text-3xl text-yellow-500">$7.99</h2>
             </div>
             <div class="mt-22">
                 <img class="w-56" src="cute-pet-mid.png">
@@ -275,9 +276,9 @@
                         <img class="w-52" src="cute-pet-mid.png">
                         <div class="mr-70">
                             <h2 class="adlam-font font-bold text-3xl">Get Pawsome News!</h2> <br>
-                            <small class="">Exclusive training tips, ticks, product deals and more.</small> <br>
-                            <input class="bg-white my-5 py-2 px-15 rounded-lg" type="email" placeholder="Enter email...."> <br>
-                            <button class="bg bg-yellow-400 px-4 py-2 rounded-lg">Subscribe</button>
+                            <small class="sora-font">Exclusive training tips, ticks, product deals and more.</small> <br>
+                            <input class="bg-white my-5 py-2 w-5/6 px-3 rounded-lg" type="email" placeholder="Enter email...."> <br>
+                            <button class="bg bg-yellow-400 px-4 py-2 rounded-lg sora-font">Subscribe</button>
                         </div>
                     </div>
                 </section> 
@@ -289,19 +290,19 @@
             <div>
                 <div class="flex items-center">
                     <img src="logo-footer.png">
-                    <h3 class="pl-3 font-medium">Browse<span class="text-orange-300">4</span>Pets</h3>
+                    <h3 class="pl-3 font-medium sora-font">Browse<span class="text-orange-300">4</span>Pets</h3>
                 </div>
-                <p class="py-5">Discover a world of treats, toys, and<br> essentials handpicked for your furry<br> friends</p>
+                <p class="py-5 sora-font">Discover a world of treats, toys, and<br> essentials handpicked for your furry<br> friends</p>
     
             </div>
             <div>
-                <h6>Find a pet</h6> <br>
-                <h6>Breeds</h6> <br>
-                <h6>Contact us</h6>
+                <h6 class="sora-font">Find a pet</h6> <br>
+                <h6 class="sora-font">Breeds</h6> <br>
+                <h6 class="sora-font">Contact us</h6>
             </div>
 
             <div class="mt-auto">
-                <h6>Follow Us</h6>
+                <h6 class="sora-font">Follow Us</h6>
                 <div class="flex py-6">
                     <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                         <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
@@ -324,6 +325,5 @@
         </section>
 
     </footer><br>
-    <!-- ---------------------------------------------------------------------------------------------------------------- -->
 </body>
 </html>
